@@ -1,0 +1,57 @@
+Week of 11/16/2020
+Notes:
+Two days ago RISKIQ TIP released indicators related to the following campaign "Chinese APT Espionage Attack Targeting South Eastern Asian Government Institutions"
+Reference: https://community.riskiq.com/article/74f05606
+
+I then searched all IPs in VT and have provided additonal (Juicy) context.
+
+IP 
+154.216.2[.]135
+Associated malicious payload
+SHA256 a3f74b03b2b070c11b95515f7d12afc4021b8e680bd718f42313378bd049ce14
+File Name: abahkau.exe
+Network Communication
+154.216.2[.]135:80
+Reference: https://www.virustotal.com/gui/file/a3f74b03b2b070c11b95515f7d12afc4021b8e680bd718f42313378bd049ce14/behavior/VirusTotal%20Jujubox
+
+IP
+58.64.184[.]201
+Associated malicious payload
+Note- According to VT there's a total of 4 files (the first malicious payload was created 2019-04-19 11:04:06)
+For the sake of keeping the intel up to date I've focused on the most recent file. 
+SHA256 feaba29072531b312e3bd0152b9c17c48901db7c8d31019944e453ca9b1572e2
+File Name: helper.exe
+Network Communication
+58.64.184[.]201:80
+Reference: https://www.virustotal.com/gui/file/feaba29072531b312e3bd0152b9c17c48901db7c8d31019944e453ca9b1572e2/behavior/Rising%20MOVES
+
+IP
+58.64.184[.]203
+Associated malicious payload
+SHA256 3f21e0b3ef80fd9393c6e187311a78aee22738f510ed227397249157b131b890
+File Name: PowCS
+Network Communication
+58.64.184[.]203:80
+Reference: https://www.virustotal.com/gui/file/3f21e0b3ef80fd9393c6e187311a78aee22738f510ed227397249157b131b890/detection
+
+IP
+58.64.184[.]209
+Associated malicious payload
+Note-According to VT  here's a total of 7 files (the first malicious payload was created 2017-11-18 14:42:36)
+For the sake of keeping the intel up to date I've focused on the most recent file. 
+SHA256 152f95a5bdf549c5ca789d0dd99d635ee69cca6fe464ced5b39d0316707a4914
+File Names: 9c13823a0ed273b292fd83ac56bea9b0.virus and 9c13823a0ed273b292fd83ac56bea9b0.rtf
+Network Communication
+58.64.184[.]209:80
+Reference: https://www.virustotal.com/gui/file/152f95a5bdf549c5ca789d0dd99d635ee69cca6fe464ced5b39d0316707a4914/detection
+
+IP
+58.64.209[.]83
+Associated malicious payload
+Note- According to VT there's a total of 6 files (the first malicious payload was created 2019-10-17 09:13:20)
+For the sake of keeping the intel up to date I've focused on the most recent file.
+SHA256 2e6dfca6b2b8a11d6eb8933bd7ed7f17ca46499a3ee548bbb086406eb57b2204
+File Names: 2e6dfca6b2b8a11d6eb8933bd7ed7f17ca46499a3ee548bbb086406eb57b2204.bin and audio.exe
+Network Communication
+58.64.209[.]83:80
+Reference: https://www.virustotal.com/gui/file/2e6dfca6b2b8a11d6eb8933bd7ed7f17ca46499a3ee548bbb086406eb57b2204/relations
