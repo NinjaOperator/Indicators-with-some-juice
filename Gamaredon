@@ -1,0 +1,92 @@
+Week of 1/25/20
+Notes:
+This past week Shadow Chaser Group (https://twitter.com/ShadowChasing1) shared some new malware samples
+(Via their Twitter account) related to Gamaredon. In addition an independent researcher Ali Aqeel 
+( https://twitter.com/aaqeel87)released a report on the analysis he conducted on the malware samples. 
+
+I’ve added some context to the IOCs that were identified with these malware samples. In hopes
+to assist my peers in taking proper actions in protecting their infrastructure from this campaign. 
+
+File Name: Мои данные.docx 
+MD5 fbc037e68f5988df9190cdadf7424752
+Creation Time: 2020-02-25 05:41:00
+ First Seen In The Wild:  2020-10-09 01:01:01
+ 
+HTTP/HTTPS requests: 
+hxxp://office360-expert[.]online/sell/dCiBlGD[.]dot
+hxxp://office360-expert.online/sell 
+hxxp://office360-expert.online/sell/
+
+Network Communication:
+195[.]161.114[.]130:80
+
+Bundled file:
+File Name: settings.xml.rels 
+MD5 955661df66ef789697afd9ec28a32ee
+
+References: 
+https://app.any.run/tasks/17575220-f087-4baa-bc96-3d9bdb0f10ed/
+https://www.trendmicro.com/en_us/research/17/h/cve-2017-0199-new-malware-abuses-powerpoint-slide-show.html
+https://www.virustotal.com/gui/file/499caf4558ca05440875a94d5e06663cc637f9c6acdaa7c1a89f889a025837f3/details
+https://www.virustotal.com/gui/file/59000238e63c0cdf1f2ea5a17c9082e356769b00898411b3dfcc3d15b7d9d341/details
+______________________________________________________________________________________________________________________________________________________________________________
+
+File Name: KzGdWvmSq.dot
+MD5: ddc38e9b53458ee58504a40fdc41df61
+Creation Time: 20-10-02 08:37:00
+
+HTTP/HTTPS requests: 
+hxxp://sufflari[.]online/increase[.]php
+hxxp://188.225.82.216/inspection[.]php
+hxxp://sufflari%5B.%5Donline/increase%5B.%5Dphp
+hxxp://188.225.82.216/inspection%5B.%5Dphp
+
+Network Communication:
+188[.]225.82[.]216:80
+
+Child process related to KzGdWvmSq.dot
+File Name: PrintDriver.exe
+MD5 d1ab72db2bedd2f255d35da3da0d4b16
+Note:  The doc contains the malicious macro, which then executes the vba script. Printer.exe is executed in wscript.exe ( In order or evade detection)
+
+If you're team is mapping out Gamaredon to the MITRE ATT&CK framework refer to these links.
+References:
+https://attack.mitre.org/techniques/T1064/ 
+https://attack.mitre.org/techniques/T1140/ 
+https://attack.mitre.org/techniques/T1107/ 
+
+Bundled file related to KzGdWvmSq.dot
+File Type: VBA 
+MD5 955661df66ef789697afd9ec28a32ee
+
+References:
+https://app.any.run/tasks/26e685f3-9a76-45fa-ad70-dd61cb64812c/
+https://www.virustotal.com/gui/file/13b780800c94410b3d68060030b5ff62e9a320a71c02963603ae65abbf150d36/relations
+https://www.virustotal.com/gui/file/6b1386e3e0dda89da711694891024c20154a6958c752b3b59ec3eaace683aced/detection
+https://www.virustotal.com/gui/file/047f3c5a7ab0ea05f35b2ca8037bf62dd4228786d07707064dbd0d46569305d0/details
+_____________________________________________________________________________________________________________________________________________________________________________
+
+File Name:TCD18CC.tmp\CleanGradient.thmx
+Note: According to OSINT this is a benign zip file. However once unzipped the file contains the following payload 
+File Name: winzip25-mf.exe
+MD5 172381f746726f2188a2b01f4f20a6a9 
+Creation Time: 2020-09-29 20:00:57
+Signature Time: 2021-01-16 22:13:00
+First Seen In The Wild: 2020-10-25 13:44:51
+*Low AV detection at this time.
+Antiy-AVL (Chinese based AV company) and Jiangmin ( Chinese based AV company) both have signatures on this file.
+
+HTTP/HTTPS requests:
+hxxp://i.installportal.com/v1/logAnalytics
+
+Network Communication:
+54[.]148.116[.]202:80
+34[.]214.206[.]145:80 (TCP)
+
+References:
+https://app.any.run/tasks/f40403ff-afbf-4e76-9e15-5ebb738f2578
+https://www.virustotal.com/gui/file/37fdceadca25ed3cce8fa726caf4db3a45f28047e0072bef5d03c96313b9ea63/detail
+https://www.virustotal.com/gui/file/944563ef5531ca06b9e27c670804f2083868979766676193f2361ac268410606/behavior/VirusTotal%20Jujubox
+
+
+To all my fellow threat hunters, IR analysts and CTI analysts Happy Hunting!
