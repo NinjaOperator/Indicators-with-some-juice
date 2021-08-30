@@ -1,0 +1,64 @@
+Recently @stoerchl from HPSecurity shared some infrastructure most likely belonging to TA551 to deliver BazaLoader.
+By using several different OSINT tools I was able to uncover additional (possible) TA551 infrastructure.
+Note: All the domains that are in this report are using the same technologies
+PHP (Programming Languages)
+________________________________________
+  CentOS (Operating Systems)
+________________________________________
+  OpenSSL (Web Server Extensions)
+________________________________________
+  Apache (Web Severs)
+Source:URLSCAN.IO
+
+In addition all the domains are using the same nameserver ns#geoscaling.com and all resolving to Active Cloud AS206446 IPs 
+
+
+Domain: leblanctaxis.com (No Screenshot)
+Date Created: 8/16/21
+ IP: 194.62.42[.]43 
+According to OSINT no indications that the domain is dropping any malicious files as of 8/30/21
+
+Domain: delgadologisticss.com (No Screenshot)
+Date Created: 8/16/21
+IP: 194.62.42[.]42 
+According to OSINT no indications that the domain is dropping any malicious files as of 8/30/21
+
+Domain: scoutpalmerd.com (No Screenshot)
+Date Created: 8/16/21
+IP: 194.62.42[.]49
+According to OSINT no indications that the domain is dropping any malicious files as of 8/30/21
+
+Domain: gilesawakeg.com (No Screenshot)
+Date Created: 8/16/21
+IP: 194.62.42[.]50
+According to OSINT no indications that the domain is dropping any malicious files as of 8/30/21
+
+Domain: mixestate2007b.com (No Screenshot)
+Date Created: 8/27/21
+IP: 194.62.42[.]47
+Communicating Files:
+SHA256 1ed0854263e1d0e49d529cf6b5f9b713af5fcb01c726416c35d72b612c6c5556
+Filename: dictate-08.21.doc
+
+Domain: naturestantond.com (No Screenshot)
+Date Created: 8/16/21
+IP: 194.62.42[.]47
+According to OSINT no indications that the domain is dropping any malicious files as of 8/30/21
+
+Domain: chargehalld.com (No Screenshot)
+Date Created: 8/27/21
+IP: 194/62.42[.]48
+Communicating Files: 
+SHA256 b3529261e8593febe0b3eb1068b49c1984cd7271d5993608a2ee3badbe5
+Filename: report,08.27.2021.doc
+
+Domain: combinefoods2019b.com (No Screenshot)
+Date Created: 8/16/21
+IP: 194.62.42[.]48
+According to OSINT no indications that the domain is dropping any malicious files as of 8/30/21
+
+Domain: stricklandspeakg.com (No Screenshot)
+Date Created: 8/16/21
+IP: 194/62.42[.]45
+According to OSINT no indications that the domain is dropping any malicious files as of 8/30/21
+
